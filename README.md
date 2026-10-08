@@ -16,7 +16,7 @@
 
 | | |
 |---|---|
-| **语言** | Python、Java（Android） |
+| **语言** | Python、Java、C（JNI） |
 | **框架 / 库** | FastAPI、PyQt5、PyTorch、scikit-learn、OpenCV |
 | **工程能力** | 端到端系统设计与部署、模块化重构、异步与多线程、LLM / TTS 应用集成、实验可复现性 |
 | **工具** | Git、Linux 服务器部署 |
@@ -38,8 +38,8 @@ PyQt5 桌面客户端 + 本地 GPT-SoVITS 语音合成 + DeepSeek-V3 大语言�
 `PyTorch` `TabPFN` `实验工程` `可复现性`
 
 ### [UVCcam-](https://github.com/kghggt/UVCcam-) — Android UVC 摄像头
-基于开源 UVCcam 的二次开发，补全了 Android 11 上的摄像头权限申请适配。
-`Android` `Java` `UVC`
+基于开源 UVCcam 的二次开发，补全了 Android 11 上的摄像头权限申请适配。涉及 JNI native 层（C）与 Java 层的改动。
+`Android` `Java` `C/JNI` `UVC`
 
 ---
 

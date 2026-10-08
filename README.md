@@ -45,7 +45,6 @@ PyQt5 桌面客户端 + 本地 GPT-SoVITS 语音合成 + DeepSeek-V3 大语言�
 
 ## 📫 联系我
 
-- **Email**：待补充
-- **Google Scholar**：待补充
+- **Email**：kghggt8@gmail.com
 
 > 如果你对其中某个项目感兴趣，欢迎提 issue 交流。

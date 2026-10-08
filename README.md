@@ -37,8 +37,8 @@ PyQt5 桌面客户端 + 本地 GPT-SoVITS 语音合成 + DeepSeek-V3 大语言�
 *Pattern Recognition Letters* 在投论文的配套代码。覆盖 19 个对比方法、414 个 run unit 的完整 pipeline，论文里每个数字都能追溯到具体产出脚本，支持断点续跑。
 `PyTorch` `TabPFN` `实验工程` `可复现性`
 
-### [UVCcam-](https://github.com/kghggt/UVCcam-) — Android UVC 摄像头
-基于开源 UVCcam 的二次开发，补全了 Android 11 上的摄像头权限申请适配。涉及 JNI native 层（C）与 Java 层的改动。
+### [UVCcam-](https://github.com/kghggt/UVCcam-) — 多路 USB 摄像头采集
+基于 saki4510t/UVCCamera 的二次开发。应用层扩展为 **6 路 UVC 摄像头同时预览、各自独立录制**，并补齐了 Android 11 的存储权限申请链路；native 层基于 libusb / libuvc 的 C 代码，通过 JNI 调用。
 `Android` `Java` `C/JNI` `UVC`
 
 ---
